@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es5",
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "noUnusedLocals":true
+  },
+  "paths": {
+    // "@api/common": ["./api"],
+    // "@common": ["./common"],
+    // "@store": ["./store"],
+    // "@components": ["./components"],
+    // "@pages": ["./pages"],
+    // "@reportingPages": ["./reportingPages"],
+    // "@styles": ["./styles"],
+    // "@icons": ["./icons"],
+    // "@layouts": ["./layouts"],
+    // "rd-action-creators": ["./libs/rd-action-creators"]
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules/**/*.*",
+    "dist/**/*.js"
+  ]
+}
